@@ -154,6 +154,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  top: 10px;
 }
 .nevbtn{
   position: relative;
