@@ -432,12 +432,22 @@
 .z{
   font-size: 25px;
 }
-.user-input{
+.input{
   width: 98%;
   height: 25px;
   margin-top: 5%;
 }
-.comment-input{
-  width: 98%;
-  height: 70px;
+.comment{
+  height: 75px;
 }
+
+
+@media screen and (max-width: 550px){
+  .input{
+    width: 85%;
+  }
+  .contructus{
+    padding-left: 9%;
+  }
+}
+
