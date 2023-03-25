@@ -210,7 +210,7 @@
   display: grid;
   place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 180px 180px 180px;
+  grid-template-rows: 150px 150px 150px;
   grid-row-gap: 50px;
   
   grid-template-areas: 
@@ -228,7 +228,7 @@
 @media screen and (max-width: 550px){
   .features{
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 100px 100px 120px 100px 100px 100px;
+    grid-template-rows: 120px 120px 120px 150px 120px 120px 120px;
     
     grid-template-areas: 
      "ct1"
