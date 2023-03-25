@@ -241,6 +241,7 @@
      
      
 }
+
 /*=========================
      @media Quaree
 ==========================*/
@@ -263,7 +264,7 @@
     
     width: 50%;
     display: flex;
-    align-items: center;
+    align-items: content;
     justify-content: center;
   }
   
@@ -274,6 +275,8 @@
   align-items: center;
   transform: translateY(-25px)
 }
+
+
 
 /*=========================
      Grid-Content -- 1
