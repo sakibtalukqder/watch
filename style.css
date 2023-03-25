@@ -16,7 +16,7 @@
     Container
 ====================*/
 .container{
- height:100vh;
+ height:100%;
 }
 @media screen and (max-width: 550px){
   .container{
@@ -249,12 +249,14 @@
 @media screen and (max-width: 550px){
   .features{
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 100px 100px 120px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     
     grid-template-areas: 
      "ct1"
      "ct2"
      "ct3"
+     "img"
+     "img"
      "img"
      "ct4"
      "ct5"
