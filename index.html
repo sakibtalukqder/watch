@@ -5,37 +5,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Watch Web</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div id="mobile" class="nev-mobile">
-  <button onclick="Hide()" class="nev-btn-cros"><i class="fa-solid fa-xmark"></i></button>
-  <ul>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Testimonials</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contract Us</a></li>
-        </ul>
-</div>
 
      
   <div class="white">
     <div class="navbar">
       
+      <div class="nav">
         <img src="img/logo.svg" alt="Logo">
         
-      <nav>
+         <button onclick="w3_open()" class="nevbtn"><i class="fa-solid fa-bars"></i></button>
+         
+        </div>
         
-         <button onclick="Display()" class="nevbtn"><i class="fa-solid fa-bars"></i></button>
+      <div id="mySidebar" class="nevigation">
+        
+        
+        <button onclick="w3_close()" class="nevbtn close"><i class="fa-solid fa-xmark"></i></button>
+         
         
         <ul>
           <li><a href="#">Features</a></li>
@@ -45,7 +37,12 @@
           <li><a href="#">FAQ</a></li>
           <li><a href="#">Contract Us</a></li>
         </ul>
-      </nav>
+      </div>
+      
+      
+      
+      
+      
     </div>
     <div class="content container margin pz1">
       <div class="left">
@@ -65,14 +62,14 @@
       <!-- ================
            Container-2
        ================ -->
-  <div class=" off">
+  <div class="container off">
     <div class="margin">
     <div class="text-aligner"><br><br>
-      
+      <p class="red-font">Why Choose Us</p>
       <h1>Eassy Process With <span class="red-font">Best <br> Feature</span> </h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis fugit est consequuntur totam,<br> consectetur praesentium dolore deleniti amet neque nostrum fuga similique doloribus esse, velit ad dicta culpa aperiam facere.</p>
     </div>
-    
+    <br><br><br>
     <div class="features">
       
       <div class="grid-content-1">
@@ -128,7 +125,7 @@
       </div>
       
     </div>
-   <br><br><br>
+    <br><br><br><br>
     </div>
   </div>
   
@@ -342,10 +339,10 @@
   
 
   
-  <div class="container off">
+  <div class="ct-padding off">
     <div class="margin">
       
-<br><br>
+
         <div class="pricing-content">
         <div class="pricing-feedback">
           <br><br><br><br>
