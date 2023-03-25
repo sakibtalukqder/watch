@@ -241,7 +241,6 @@
      
      
 }
-
 /*=========================
      @media Quaree
 ==========================*/
@@ -249,33 +248,32 @@
 @media screen and (max-width: 550px){
   .features{
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 300px 100px 100px 100px;
     
     grid-template-areas: 
      "ct1"
      "ct2"
      "ct3"
-     "imx"
      "img"
-     "imx"
      "ct4"
      "ct5"
      "ct6";
   }
   .grid-img{
+    
     width: 50%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-35%);
+    display: flex;
+    align-items: content;
+    justify-content: center;
   }
   
 }
 
 .grid-img{
   grid-area: img;
-  align-items: content;
+  align-items: center;
+  transform: translateY(-25px)
 }
-
 
 /*=========================
      Grid-Content -- 1
@@ -303,6 +301,7 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
 /*=========================
      Grid -- 2
 ==========================*/
