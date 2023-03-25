@@ -182,7 +182,9 @@
 }
 
 .navbar ul {
-  margin-top: 40px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .navbar ul li{
   display: block;
