@@ -169,11 +169,12 @@
   border: none;
 }
 .nevigation{
-  height: 55%;
+  height: 100%;
   width: 100%;
   display: none;
   position: absolute;
   background-color: pink;
+  align-items: content;
 }
 .navbar img{
   margin-left: 25px;
@@ -264,7 +265,7 @@
     
     width: 50%;
     display: flex;
-    align-items: content;
+    align-items: center;
     justify-content: center;
   }
   
