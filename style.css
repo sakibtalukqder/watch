@@ -165,9 +165,10 @@
   height: 35px;
   width: 50px;
   font-size: 30px;
+  border: none;
 }
 .nevigation{
-  height: 40%;
+  height: 50%;
   width: 100%;
   display: none;
   position: absolute;
@@ -178,11 +179,14 @@
   width: 45px;
 }
 
+.navbar ul {
+  margin-top: 40px;
+}
 .navbar ul li{
   display: block;
   list-style: none;
   padding: 15px;
-  font-size: 15px;
+  font-size: 20px;
 }
 .navbar ul li a{
   text-decoration: none;
@@ -193,11 +197,13 @@
   float: right;
   background-color: pink;
   border: none;
+  top: 35px;
   padding: 9px;
 }
 
   
 }
+
 
 
 /*======================
