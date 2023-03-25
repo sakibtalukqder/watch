@@ -210,7 +210,7 @@
   display: grid;
   place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 80px 80px 80px;
+  grid-template-rows: 180px 180px 180px;
   grid-row-gap: 50px;
   
   grid-template-areas: 
