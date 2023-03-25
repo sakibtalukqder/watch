@@ -211,7 +211,7 @@
   place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 150px 150px 150px;
-  grid-row-gap: 50px;
+  grid-row-gap: 10px;
   
   grid-template-areas: 
      "ct1 img ct4"
