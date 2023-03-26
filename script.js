@@ -11,3 +11,22 @@ function w3_open() {
 function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
+
+
+
+//--Dark-Theme
+
+
+function display() {
+  
+  let mode = document.getElementById("mode");
+  
+  document.body.classList.toggle("dark-thme");
+  if(document.body.classList.contains("dark-thme")){
+    mode.innerHTML='Lite';
+  }
+  else{
+    mode.innerHTML='dark';
+  }
+  
+}
