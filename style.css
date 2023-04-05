@@ -1,19 +1,15 @@
 /*===================
     Root Selection 
 ====================*/
-:root{
-  
-  
+:root {
   --white-color: #fff;
   --off-color: #EFF8FB;
   --blue-color: #0A0A2A;
   --red-color: #DF013A;
   --pink-color: pink;
- 
 }
-  
 
-.dark-thme{
+.dark-thme {
   --white-color: black;
   --black-color: white;
   --off-color: gray;
@@ -21,11 +17,8 @@
   --blue-color: #2ECCFA;
   --red-color: #DF013A;
 }
-  
-  
 
-
-*{
+* {
   margin: 0;
   font-family: 'Raleway', sans-serif;
 }
@@ -33,81 +26,94 @@
 /*===================
     Container
 ====================*/
-.container{
- height:100vh;
+.container {
+  height: 100vh;
 }
-@media screen and (max-width: 550px){
-  .container{
+
+@media screen and (max-width: 550px) {
+  .container {
     height: 100%;
   }
 }
-.axis-50{
+
+.axis-50 {
   height: 50vh;
   align-items: center;
   display: flex;
   justify-content: center;
 }
-.off{
+
+.off {
   background-color: var(--off-color);
   color: var(--black-color);
 }
-.white{
+
+.white {
   background-color: var(--white-color);
   color: var(--black-color);
 }
-.red{
+
+.red {
   background-color: var(--red-color);
   color: var(--white-color);
 }
-.red-font{
+
+.red-font {
   color: var(--red-color)
 }
-.blue{
+
+.blue {
   background-color: var(--blue-color);
   color: var(--white-color);
 }
-.star{
+
+.star {
   padding-bottom: 15%;
 }
 
 /*======================
      Body Part -- 1
 =======================*/
-.content{
+.content {
   justify-content: space-between;
   display: flex;
   align-items: center;
   padding: auto;
 }
-.ct-padding{
+
+.ct-padding {
   padding: 10% 5%;
 }
 
-@media screen and (max-width: 550px){
-  .content{
+@media screen and (max-width: 550px) {
+  .content {
     flex-direction: column;
+    padding: 10% 0;
   }
 }
 
-.margin{
+.margin {
   margin: 0 5%;
 
 }
-.right img{
+
+.right img {
   width: 90%;
 }
-@media screen and (max-width: 550px){
-  .right img{
+
+@media screen and (max-width: 550px) {
+  .right img {
     width: 70%;
     padding: 9% 0;
   }
 }
 
-.left h1{
+.left h1 {
   color: var(--blue-color);
   font-size: 40px;
 }
-.left p{
+
+.left p {
   font-size: 20px;
   padding: 25px 0;
   font-family: sans-serif;
@@ -116,7 +122,7 @@
 /*===================
       Buttons
 ====================*/
-.btn{
+.btn {
   border: none;
   border-radius: 4px;
   width: 180px;
@@ -124,18 +130,18 @@
   font-size: 19px;
 }
 
-.sm{
+.sm {
   width: 100px;
 }
 
-.nevbtn{
+.nevbtn {
   display: none;
 }
 
 /*===================
     Nevigation bar
 ====================*/
-.navbar{
+.navbar {
   height: 65px;
   width: 100%;
   display: flex;
@@ -143,17 +149,19 @@
   align-items: center;
   background-color: var(--off-color);
 }
-.navbar img{
+
+.navbar img {
   margin-left: 25px;
 }
 
-.navbar ul li{
+.navbar ul li {
   display: inline;
   list-style: none;
   padding-right: 15px;
   font-size: 15px;
 }
-.navbar ul li a{
+
+.navbar ul li a {
   text-decoration: none;
   color: black;
 }
@@ -165,140 +173,154 @@
      @media Quaree
 ==========================*/
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 550px) {
 
-.navbar{
-  height: 65px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: start;
-  background-color: var(--off-color);
-}
-.nav{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  top: 10px;
-}
-.nevbtn{
-  position: relative;
-  right: 24px;
-  cursor: pointer;
-  display: block;
-  height: 35px;
-  width: 50px;
-  font-size: 30px;
-  border: none;
-}
-.nevigation{
-  height: 100%;
-  width: 100%;
-  display: none;
-  position: absolute;
-  background-color: var(--pink-color);
-}
-.navbar img{
-  margin-left: 25px;
-  width: 45px;
-}
+  .navbar {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: var(--off-color);
+  }
 
-.navbar ul {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.navbar ul li{
-  display: block;
-  list-style: none;
-  padding: 15px;
-  font-size: 20px;
-}
-.navbar ul li a{
-  text-decoration: none;
-  color: black;
-}
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 10px;
+  }
 
-.close{
-  float: right;
-  background-color: var(---color);
-  border: none;
-  top: 35px;
-  padding: 9px;
-}
+  .nevbtn {
+    position: relative;
+    right: 24px;
+    cursor: pointer;
+    display: block;
+    height: 35px;
+    width: 50px;
+    font-size: 30px;
+    border: none;
+  }
 
-  
+  .nevigation {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: var(--pink-color);
+  }
+
+  .navbar img {
+    margin-left: 25px;
+    width: 45px;
+  }
+
+  .navbar ul {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .navbar ul li {
+    display: block;
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .close {
+    float: right;
+    background-color: var(---color);
+    border: none;
+    top: 35px;
+    padding: 9px;
+  }
+
+  .btn {
+    margin-top: 12px;
+  }
+
+
 }
 
 
 /*======================
      Body Part -- 2
 =======================*/
-.text-aligner{
-  
+.text-aligner {
+
   padding: 5% 5%;
 
   text-align: center;
-  
+
 }
-.text-aligner img{
+
+.text-aligner img {
   width: 10%;
 }
-.text-aligner a{
+
+.text-aligner a {
   font-size: 30px;
   padding: 9px;
   color: var(--white-color);
 }
+
 /*=========================
      Grid -- 1
 ==========================*/
-.features{
+.features {
   display: grid;
   place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 100px 100px 100px;
   grid-row-gap: 20px;
-  
-  grid-template-areas: 
-     "ct1 img ct4"
-     "ct2 img ct5"
-     "ct3 img ct6";
-     
-     
+
+  grid-template-areas:
+    "ct1 img ct4"
+    "ct2 img ct5"
+    "ct3 img ct6";
+
+
 }
 
 /*=========================
      @media Quaree
 ==========================*/
 
-@media screen and (max-width: 550px){
-  .features{
+@media screen and (max-width: 550px) {
+  .features {
     grid-template-columns: 1fr;
     grid-template-rows: 100px 100px 100px 300px 100px 100px 100px;
-    
-    grid-template-areas: 
-     "ct1"
-     "ct2"
-     "ct3"
-     "img"
-     "ct4"
-     "ct5"
-     "ct6";
+
+    grid-template-areas:
+      "ct1"
+      "ct2"
+      "ct3"
+      "img"
+      "ct4"
+      "ct5"
+      "ct6";
   }
-  .grid-img{
-    
+
+  .grid-img {
+
     width: 50%;
     display: flex;
     align-items: content;
     justify-content: center;
   }
-  
+
 }
 
-.grid-img{
+.grid-img {
   grid-area: img;
   align-items: center;
   transform: translateY(-25px)
@@ -308,34 +330,39 @@
 /*=========================
      Grid-Content -- 1
 ==========================*/
-.grid-img img{
-  width:100%;
+.grid-img img {
+  width: 100%;
   position: relative;
-  top:25px;
+  top: 25px;
   padding: 9px 9px;
 }
-.grid-content-1{
+
+.grid-content-1 {
   width: 250px;
   margin-top: 5%;
 }
-.grid-content-1 img{
+
+.grid-content-1 img {
   width: 30px;
   float: right;
   flood-color: white;
 }
-.content-img-3{
+
+.content-img-3 {
   padding: 5% 0;
 }
-.content-img-3 img{
+
+.content-img-3 img {
   width: 40%;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
 }
+
 /*=========================
      Grid -- 2
 ==========================*/
-.tech-space{
+.tech-space {
   display: grid;
   position: relative;
   right: 20%;
@@ -344,8 +371,8 @@
   grid-template-columns: 225px 225px;
 }
 
-@media screen and (max-width: 550px){
-  .tech-space{
+@media screen and (max-width: 550px) {
+  .tech-space {
     grid-template-columns: 225px;
     right: 32%;
     transform: translateX(50%);
@@ -356,19 +383,21 @@
      Grid-Content -- 2
 ==========================*/
 
-.grig-content-2 img{
+.grig-content-2 img {
   width: 50px;
   padding: 25px;
   background: var(--black-color);
 }
-.grig-content-2{
+
+.grig-content-2 {
   border: 2px solid gray;
   padding: 9px;
   text-align: center;
   align-items: center;
   cursor: pointer;
 }
-.grig-content-2:hover{
+
+.grig-content-2:hover {
   background-color: var(--red-color);
   transition: 1s;
 }
@@ -376,7 +405,7 @@
 /*=========================
      Grid -- 3
 ==========================*/
-.buyer-info{
+.buyer-info {
   display: grid;
   grid-gap: 35px;
   grid-template-rows: 460px;
@@ -386,16 +415,18 @@
   left: 50%;
   transform: translateX(-50%);
 }
-@media screen and (max-width: 550px){
-  .buyer-info{
+
+@media screen and (max-width: 550px) {
+  .buyer-info {
     grid-template-columns: 1fr;
   }
 }
 
-.grid-buyer img{
+.grid-buyer img {
   width: 65px;
 }
-.grid-buyer{
+
+.grid-buyer {
   background-color: var(--white-color);
   border-radius: 5px;
   padding: 20% 5px;
@@ -404,39 +435,42 @@
 /*=========================
      Pricing Section 
 ==========================*/
-.pricing-feedback img{
+.pricing-feedback img {
   width: 100px;
 }
 
-.pricing-content{
+.pricing-content {
   border: 2px solid var(--red-color);
   display: grid;
   place-items: center;
   grid-template-rows: 0.5fr;
   grid-template-columns: 1fr 1fr;
 }
-@media screen and (max-width: 550px){
-  .pricing-content{
+
+@media screen and (max-width: 550px) {
+  .pricing-content {
     grid-template-rows: 0.5fr 0.5fr;
     grid-template-columns: 1fr;
   }
 }
 
-.pricing-feedback{
+.pricing-feedback {
   background-color: var(--red-color);
   align-items: center;
   padding: 3%;
-  
+
 }
 
-.pricing-feedback p{
+.pricing-feedback p {
   padding: 5%;
 }
-.pricing-price{
+
+.pricing-price {
   padding: 7%;
   font-size: 20px;
 }
-.question-grid{
+
+.question-grid {
   font-size: small;
   padding-left: 4%;
   display: grid;
@@ -445,32 +479,33 @@
   grid-template-columns: 1fr 1fr;
 }
 
-@media screen and (max-width: 550px){
-  .question-grid{
+@media screen and (max-width: 550px) {
+  .question-grid {
     grid-template-rows: 0.5fr 0.5fr;
     grid-template-columns: 1fr;
   }
 }
 
-
-.z{
+.z {
   font-size: 25px;
 }
 
-.input{
+.input {
   width: 98%;
   height: 25px;
   margin-top: 5%;
 }
-.comment{
+
+.comment {
   height: 70px;
 }
 
-@media screen and (max-width: 550px){
-  .input{
+@media screen and (max-width: 550px) {
+  .input {
     width: 85%;
   }
-  .contructus{
+
+  .contructus {
     padding-left: 9%;
   }
 }
