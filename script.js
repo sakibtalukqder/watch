@@ -2,6 +2,8 @@ function Error(){
   window.alert('Working on it, Try again letter. \nThank you.. :)');
 }
 
+
+
 //Sidebar Open & Close
 
 function w3_open() {
